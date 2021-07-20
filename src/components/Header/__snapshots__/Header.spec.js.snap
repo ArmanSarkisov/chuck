@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header test should render Joke component 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Header>
+      <header
+        className="bg-indigo-500"
+      >
+        <nav
+          className="flex items-center justify-between flex-wrap bg-teal p-6"
+        >
+          <BrandName>
+            <div
+              className="flex items-center flex-no-shrink text-white mr-6"
+            >
+              <span
+                className="font-semibold text-xl tracking-tight"
+              >
+                Chuck Jokes
+              </span>
+            </div>
+          </BrandName>
+          <Links
+            user={Object {}}
+          >
+            <div
+              className="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+            >
+              <div
+                className="text-sm lg:flex-grow"
+              >
+                <NavLink
+                  activeClassName="text-white"
+                  className="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4"
+                  to="/jokes"
+                >
+                  <Link
+                    aria-current={null}
+                    className="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4"
+                    to={
+                      Object {
+                        "hash": "",
+                        "pathname": "/jokes",
+                        "search": "",
+                        "state": null,
+                      }
+                    }
+                  >
+                    <LinkAnchor
+                      aria-current={null}
+                      className="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4"
+                      href="/jokes"
+                      navigate={[Function]}
+                    >
+                      <a
+                        aria-current={null}
+                        className="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4"
+                        href="/jokes"
+                        onClick={[Function]}
+                      >
+                        Jokes
+                      </a>
+                    </LinkAnchor>
+                  </Link>
+                </NavLink>
+              </div>
+            </div>
+          </Links>
+          <HeaderActions
+            user={Object {}}
+          >
+            <div>
+              <NavLink
+                className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-500 hover:text-teal hover:bg-teal mt-4 lg:mt-0"
+                to="/auth/login"
+              >
+                <Link
+                  aria-current={null}
+                  className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-500 hover:text-teal hover:bg-teal mt-4 lg:mt-0"
+                  to={
+                    Object {
+                      "hash": "",
+                      "pathname": "/auth/login",
+                      "search": "",
+                      "state": null,
+                    }
+                  }
+                >
+                  <LinkAnchor
+                    aria-current={null}
+                    className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-500 hover:text-teal hover:bg-teal mt-4 lg:mt-0"
+                    href="/auth/login"
+                    navigate={[Function]}
+                  >
+                    <a
+                      aria-current={null}
+                      className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-500 hover:text-teal hover:bg-teal mt-4 lg:mt-0"
+                      href="/auth/login"
+                      onClick={[Function]}
+                    >
+                      Login
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </NavLink>
+              <NavLink
+                className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-500 hover:text-teal hover:bg-teal mt-4 lg:mt-0 ml-5"
+                to="/auth/sign-up"
+              >
+                <Link
+                  aria-current={null}
+                  className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-500 hover:text-teal hover:bg-teal mt-4 lg:mt-0 ml-5"
+                  to={
+                    Object {
+                      "hash": "",
+                      "pathname": "/auth/sign-up",
+                      "search": "",
+                      "state": null,
+                    }
+                  }
+                >
+                  <LinkAnchor
+                    aria-current={null}
+                    className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-500 hover:text-teal hover:bg-teal mt-4 lg:mt-0 ml-5"
+                    href="/auth/sign-up"
+                    navigate={[Function]}
+                  >
+                    <a
+                      aria-current={null}
+                      className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-blue-500 hover:text-teal hover:bg-teal mt-4 lg:mt-0 ml-5"
+                      href="/auth/sign-up"
+                      onClick={[Function]}
+                    >
+                      Sign-up
+                    </a>
+                  </LinkAnchor>
+                </Link>
+              </NavLink>
+            </div>
+          </HeaderActions>
+        </nav>
+      </header>
+    </Header>
+  </Router>
+</BrowserRouter>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label test Has error text should render Label component with Error 1`] = `
+<label
+  className="block text-gray-700 text-sm font-bold mb-2 text-red-700"
+  htmlFor="text"
+>
+  <span>
+    some error
+  </span>
+</label>
+`;
+
+exports[`Label test Has not error text should render Label component without Error 1`] = `
+<label
+  className="block text-gray-700 text-sm font-bold mb-2"
+  htmlFor="text"
+>
+  <span>
+    cool
+  </span>
+</label>
+`;

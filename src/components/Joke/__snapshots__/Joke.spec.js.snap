@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label test should render Joke component 1`] = `
+<Joke>
+  <div
+    className="mt-20 flex flex-col items-center"
+  >
+    <div
+      className="mb-5"
+    >
+      <Button
+        onClick={[Function]}
+        text="Get One Random"
+      >
+        <button
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          onClick={[Function]}
+          type="button"
+        >
+          Get One Random
+        </button>
+      </Button>
+    </div>
+    <div
+      className="mb-5"
+    >
+      <Button
+        onClick={[Function]}
+        text="Get One Random Interval"
+      >
+        <button
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          onClick={[Function]}
+          type="button"
+        >
+          Get One Random Interval
+        </button>
+      </Button>
+    </div>
+    <Card>
+      <div
+        className="max-w-sm rounded overflow-hidden shadow-lg"
+      >
+        <div
+          className="px-6 py-4"
+        >
+          <div
+            className="font-bold text-xl mb-2"
+          >
+            The Coolest Joke
+          </div>
+          <p
+            className="text-gray-700 text-base"
+          >
+            Click on button get random text
+          </p>
+        </div>
+        <div
+          className="px-6 pt-4 pb-2"
+        />
+      </div>
+    </Card>
+  </div>
+</Joke>
+`;

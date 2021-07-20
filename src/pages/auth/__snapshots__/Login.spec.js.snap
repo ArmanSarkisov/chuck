@@ -1,0 +1,963 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login page test should render Joke component 1`] = `
+<Login>
+  <div
+    className="w-full flex items-center flex-col justify-center"
+  >
+    <LoginForm
+      control={
+        Object {
+          "defaultValuesRef": Object {
+            "current": Object {},
+          },
+          "fieldArrayDefaultValuesRef": Object {
+            "current": Object {},
+          },
+          "fieldsRef": Object {
+            "current": Object {
+              "identifier": Object {
+                "_f": Object {
+                  "mount": true,
+                  "name": "identifier",
+                  "ref": <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                    control="[object Object]"
+                    id="username"
+                    name="identifier"
+                    placeholder="Username/Email"
+                    type="text"
+                  />,
+                  "value": "",
+                },
+              },
+              "password": Object {
+                "_f": Object {
+                  "mount": true,
+                  "name": "password",
+                  "ref": <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                    control="[object Object]"
+                    id="password"
+                    name="password"
+                    placeholder="********"
+                    type="password"
+                  />,
+                  "value": "",
+                },
+              },
+            },
+          },
+          "formStateRef": Object {
+            "current": Object {
+              "dirtyFields": Object {},
+              "errors": Object {},
+              "isDirty": false,
+              "isSubmitSuccessful": false,
+              "isSubmitted": false,
+              "isSubmitting": false,
+              "isValid": false,
+              "isValidating": false,
+              "submitCount": 0,
+              "touchedFields": Object {},
+            },
+          },
+          "getIsDirty": [Function],
+          "inFieldArrayActionRef": Object {
+            "current": false,
+          },
+          "namesRef": Object {
+            "current": Object {
+              "array": Set {},
+              "mount": Set {
+                "identifier",
+                "password",
+              },
+              "unMount": Set {},
+              "watch": Set {},
+              "watchAll": false,
+            },
+          },
+          "readFormStateRef": Object {
+            "current": Object {
+              "dirtyFields": false,
+              "errors": "all",
+              "isDirty": false,
+              "isValid": false,
+              "isValidating": false,
+              "touchedFields": false,
+            },
+          },
+          "register": [Function],
+          "setValues": [Function],
+          "shouldUnmount": undefined,
+          "subjectsRef": Object {
+            "current": Object {
+              "array": ke {
+                "observers": Array [
+                  Ve {
+                    "closed": false,
+                    "observer": Object {
+                      "next": [Function],
+                    },
+                  },
+                ],
+              },
+              "control": ke {
+                "observers": Array [],
+              },
+              "state": ke {
+                "observers": Array [
+                  Ve {
+                    "closed": false,
+                    "observer": Object {
+                      "next": [Function],
+                    },
+                  },
+                ],
+              },
+              "watch": ke {
+                "observers": Array [],
+              },
+            },
+          },
+          "unregister": [Function],
+          "updateIsValid": [Function],
+          "watchInternal": [Function],
+        }
+      }
+      errors={Object {}}
+      handleSendData={[Function]}
+      handleSubmit={[Function]}
+      register={[Function]}
+    >
+      <form
+        className="bg-white w-2/4 shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-32"
+        onSubmit={[Function]}
+      >
+        <FormField
+          control={
+            Object {
+              "defaultValuesRef": Object {
+                "current": Object {},
+              },
+              "fieldArrayDefaultValuesRef": Object {
+                "current": Object {},
+              },
+              "fieldsRef": Object {
+                "current": Object {
+                  "identifier": Object {
+                    "_f": Object {
+                      "mount": true,
+                      "name": "identifier",
+                      "ref": <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                        control="[object Object]"
+                        id="username"
+                        name="identifier"
+                        placeholder="Username/Email"
+                        type="text"
+                      />,
+                      "value": "",
+                    },
+                  },
+                  "password": Object {
+                    "_f": Object {
+                      "mount": true,
+                      "name": "password",
+                      "ref": <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                        control="[object Object]"
+                        id="password"
+                        name="password"
+                        placeholder="********"
+                        type="password"
+                      />,
+                      "value": "",
+                    },
+                  },
+                },
+              },
+              "formStateRef": Object {
+                "current": Object {
+                  "dirtyFields": Object {},
+                  "errors": Object {},
+                  "isDirty": false,
+                  "isSubmitSuccessful": false,
+                  "isSubmitted": false,
+                  "isSubmitting": false,
+                  "isValid": false,
+                  "isValidating": false,
+                  "submitCount": 0,
+                  "touchedFields": Object {},
+                },
+              },
+              "getIsDirty": [Function],
+              "inFieldArrayActionRef": Object {
+                "current": false,
+              },
+              "namesRef": Object {
+                "current": Object {
+                  "array": Set {},
+                  "mount": Set {
+                    "identifier",
+                    "password",
+                  },
+                  "unMount": Set {},
+                  "watch": Set {},
+                  "watchAll": false,
+                },
+              },
+              "readFormStateRef": Object {
+                "current": Object {
+                  "dirtyFields": false,
+                  "errors": "all",
+                  "isDirty": false,
+                  "isValid": false,
+                  "isValidating": false,
+                  "touchedFields": false,
+                },
+              },
+              "register": [Function],
+              "setValues": [Function],
+              "shouldUnmount": undefined,
+              "subjectsRef": Object {
+                "current": Object {
+                  "array": ke {
+                    "observers": Array [
+                      Ve {
+                        "closed": false,
+                        "observer": Object {
+                          "next": [Function],
+                        },
+                      },
+                    ],
+                  },
+                  "control": ke {
+                    "observers": Array [],
+                  },
+                  "state": ke {
+                    "observers": Array [
+                      Ve {
+                        "closed": false,
+                        "observer": Object {
+                          "next": [Function],
+                        },
+                      },
+                    ],
+                  },
+                  "watch": ke {
+                    "observers": Array [],
+                  },
+                },
+              },
+              "unregister": [Function],
+              "updateIsValid": [Function],
+              "watchInternal": [Function],
+            }
+          }
+          inputId="username"
+          name="identifier"
+          placeholder="Username/Email"
+          register={[Function]}
+          text="Username/Email"
+          type="text"
+        >
+          <div
+            className="mb-4"
+          >
+            <Label
+              htmlFor="username"
+              text="Username/Email"
+            >
+              <label
+                className="block text-gray-700 text-sm font-bold mb-2"
+                htmlFor="username"
+              >
+                <span>
+                  Username/Email
+                </span>
+              </label>
+            </Label>
+            <Input
+              control={
+                Object {
+                  "defaultValuesRef": Object {
+                    "current": Object {},
+                  },
+                  "fieldArrayDefaultValuesRef": Object {
+                    "current": Object {},
+                  },
+                  "fieldsRef": Object {
+                    "current": Object {
+                      "identifier": Object {
+                        "_f": Object {
+                          "mount": true,
+                          "name": "identifier",
+                          "ref": <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            control="[object Object]"
+                            id="username"
+                            name="identifier"
+                            placeholder="Username/Email"
+                            type="text"
+                          />,
+                          "value": "",
+                        },
+                      },
+                      "password": Object {
+                        "_f": Object {
+                          "mount": true,
+                          "name": "password",
+                          "ref": <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            control="[object Object]"
+                            id="password"
+                            name="password"
+                            placeholder="********"
+                            type="password"
+                          />,
+                          "value": "",
+                        },
+                      },
+                    },
+                  },
+                  "formStateRef": Object {
+                    "current": Object {
+                      "dirtyFields": Object {},
+                      "errors": Object {},
+                      "isDirty": false,
+                      "isSubmitSuccessful": false,
+                      "isSubmitted": false,
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "submitCount": 0,
+                      "touchedFields": Object {},
+                    },
+                  },
+                  "getIsDirty": [Function],
+                  "inFieldArrayActionRef": Object {
+                    "current": false,
+                  },
+                  "namesRef": Object {
+                    "current": Object {
+                      "array": Set {},
+                      "mount": Set {
+                        "identifier",
+                        "password",
+                      },
+                      "unMount": Set {},
+                      "watch": Set {},
+                      "watchAll": false,
+                    },
+                  },
+                  "readFormStateRef": Object {
+                    "current": Object {
+                      "dirtyFields": false,
+                      "errors": "all",
+                      "isDirty": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "touchedFields": false,
+                    },
+                  },
+                  "register": [Function],
+                  "setValues": [Function],
+                  "shouldUnmount": undefined,
+                  "subjectsRef": Object {
+                    "current": Object {
+                      "array": ke {
+                        "observers": Array [
+                          Ve {
+                            "closed": false,
+                            "observer": Object {
+                              "next": [Function],
+                            },
+                          },
+                        ],
+                      },
+                      "control": ke {
+                        "observers": Array [],
+                      },
+                      "state": ke {
+                        "observers": Array [
+                          Ve {
+                            "closed": false,
+                            "observer": Object {
+                              "next": [Function],
+                            },
+                          },
+                        ],
+                      },
+                      "watch": ke {
+                        "observers": Array [],
+                      },
+                    },
+                  },
+                  "unregister": [Function],
+                  "updateIsValid": [Function],
+                  "watchInternal": [Function],
+                }
+              }
+              id="username"
+              name="identifier"
+              placeholder="Username/Email"
+              register={[Function]}
+              type="text"
+            >
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                control={
+                  Object {
+                    "defaultValuesRef": Object {
+                      "current": Object {},
+                    },
+                    "fieldArrayDefaultValuesRef": Object {
+                      "current": Object {},
+                    },
+                    "fieldsRef": Object {
+                      "current": Object {
+                        "identifier": Object {
+                          "_f": Object {
+                            "mount": true,
+                            "name": "identifier",
+                            "ref": <input
+                              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                              control="[object Object]"
+                              id="username"
+                              name="identifier"
+                              placeholder="Username/Email"
+                              type="text"
+                            />,
+                            "value": "",
+                          },
+                        },
+                        "password": Object {
+                          "_f": Object {
+                            "mount": true,
+                            "name": "password",
+                            "ref": <input
+                              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                              control="[object Object]"
+                              id="password"
+                              name="password"
+                              placeholder="********"
+                              type="password"
+                            />,
+                            "value": "",
+                          },
+                        },
+                      },
+                    },
+                    "formStateRef": Object {
+                      "current": Object {
+                        "dirtyFields": Object {},
+                        "errors": Object {},
+                        "isDirty": false,
+                        "isSubmitSuccessful": false,
+                        "isSubmitted": false,
+                        "isSubmitting": false,
+                        "isValid": false,
+                        "isValidating": false,
+                        "submitCount": 0,
+                        "touchedFields": Object {},
+                      },
+                    },
+                    "getIsDirty": [Function],
+                    "inFieldArrayActionRef": Object {
+                      "current": false,
+                    },
+                    "namesRef": Object {
+                      "current": Object {
+                        "array": Set {},
+                        "mount": Set {
+                          "identifier",
+                          "password",
+                        },
+                        "unMount": Set {},
+                        "watch": Set {},
+                        "watchAll": false,
+                      },
+                    },
+                    "readFormStateRef": Object {
+                      "current": Object {
+                        "dirtyFields": false,
+                        "errors": "all",
+                        "isDirty": false,
+                        "isValid": false,
+                        "isValidating": false,
+                        "touchedFields": false,
+                      },
+                    },
+                    "register": [Function],
+                    "setValues": [Function],
+                    "shouldUnmount": undefined,
+                    "subjectsRef": Object {
+                      "current": Object {
+                        "array": ke {
+                          "observers": Array [
+                            Ve {
+                              "closed": false,
+                              "observer": Object {
+                                "next": [Function],
+                              },
+                            },
+                          ],
+                        },
+                        "control": ke {
+                          "observers": Array [],
+                        },
+                        "state": ke {
+                          "observers": Array [
+                            Ve {
+                              "closed": false,
+                              "observer": Object {
+                                "next": [Function],
+                              },
+                            },
+                          ],
+                        },
+                        "watch": ke {
+                          "observers": Array [],
+                        },
+                      },
+                    },
+                    "unregister": [Function],
+                    "updateIsValid": [Function],
+                    "watchInternal": [Function],
+                  }
+                }
+                id="username"
+                name="identifier"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="Username/Email"
+                type="text"
+              />
+            </Input>
+          </div>
+        </FormField>
+        <FormField
+          control={
+            Object {
+              "defaultValuesRef": Object {
+                "current": Object {},
+              },
+              "fieldArrayDefaultValuesRef": Object {
+                "current": Object {},
+              },
+              "fieldsRef": Object {
+                "current": Object {
+                  "identifier": Object {
+                    "_f": Object {
+                      "mount": true,
+                      "name": "identifier",
+                      "ref": <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                        control="[object Object]"
+                        id="username"
+                        name="identifier"
+                        placeholder="Username/Email"
+                        type="text"
+                      />,
+                      "value": "",
+                    },
+                  },
+                  "password": Object {
+                    "_f": Object {
+                      "mount": true,
+                      "name": "password",
+                      "ref": <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                        control="[object Object]"
+                        id="password"
+                        name="password"
+                        placeholder="********"
+                        type="password"
+                      />,
+                      "value": "",
+                    },
+                  },
+                },
+              },
+              "formStateRef": Object {
+                "current": Object {
+                  "dirtyFields": Object {},
+                  "errors": Object {},
+                  "isDirty": false,
+                  "isSubmitSuccessful": false,
+                  "isSubmitted": false,
+                  "isSubmitting": false,
+                  "isValid": false,
+                  "isValidating": false,
+                  "submitCount": 0,
+                  "touchedFields": Object {},
+                },
+              },
+              "getIsDirty": [Function],
+              "inFieldArrayActionRef": Object {
+                "current": false,
+              },
+              "namesRef": Object {
+                "current": Object {
+                  "array": Set {},
+                  "mount": Set {
+                    "identifier",
+                    "password",
+                  },
+                  "unMount": Set {},
+                  "watch": Set {},
+                  "watchAll": false,
+                },
+              },
+              "readFormStateRef": Object {
+                "current": Object {
+                  "dirtyFields": false,
+                  "errors": "all",
+                  "isDirty": false,
+                  "isValid": false,
+                  "isValidating": false,
+                  "touchedFields": false,
+                },
+              },
+              "register": [Function],
+              "setValues": [Function],
+              "shouldUnmount": undefined,
+              "subjectsRef": Object {
+                "current": Object {
+                  "array": ke {
+                    "observers": Array [
+                      Ve {
+                        "closed": false,
+                        "observer": Object {
+                          "next": [Function],
+                        },
+                      },
+                    ],
+                  },
+                  "control": ke {
+                    "observers": Array [],
+                  },
+                  "state": ke {
+                    "observers": Array [
+                      Ve {
+                        "closed": false,
+                        "observer": Object {
+                          "next": [Function],
+                        },
+                      },
+                    ],
+                  },
+                  "watch": ke {
+                    "observers": Array [],
+                  },
+                },
+              },
+              "unregister": [Function],
+              "updateIsValid": [Function],
+              "watchInternal": [Function],
+            }
+          }
+          inputId="password"
+          name="password"
+          placeholder="********"
+          register={[Function]}
+          text="Password"
+          type="password"
+        >
+          <div
+            className="mb-4"
+          >
+            <Label
+              htmlFor="password"
+              text="Password"
+            >
+              <label
+                className="block text-gray-700 text-sm font-bold mb-2"
+                htmlFor="password"
+              >
+                <span>
+                  Password
+                </span>
+              </label>
+            </Label>
+            <Input
+              control={
+                Object {
+                  "defaultValuesRef": Object {
+                    "current": Object {},
+                  },
+                  "fieldArrayDefaultValuesRef": Object {
+                    "current": Object {},
+                  },
+                  "fieldsRef": Object {
+                    "current": Object {
+                      "identifier": Object {
+                        "_f": Object {
+                          "mount": true,
+                          "name": "identifier",
+                          "ref": <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            control="[object Object]"
+                            id="username"
+                            name="identifier"
+                            placeholder="Username/Email"
+                            type="text"
+                          />,
+                          "value": "",
+                        },
+                      },
+                      "password": Object {
+                        "_f": Object {
+                          "mount": true,
+                          "name": "password",
+                          "ref": <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            control="[object Object]"
+                            id="password"
+                            name="password"
+                            placeholder="********"
+                            type="password"
+                          />,
+                          "value": "",
+                        },
+                      },
+                    },
+                  },
+                  "formStateRef": Object {
+                    "current": Object {
+                      "dirtyFields": Object {},
+                      "errors": Object {},
+                      "isDirty": false,
+                      "isSubmitSuccessful": false,
+                      "isSubmitted": false,
+                      "isSubmitting": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "submitCount": 0,
+                      "touchedFields": Object {},
+                    },
+                  },
+                  "getIsDirty": [Function],
+                  "inFieldArrayActionRef": Object {
+                    "current": false,
+                  },
+                  "namesRef": Object {
+                    "current": Object {
+                      "array": Set {},
+                      "mount": Set {
+                        "identifier",
+                        "password",
+                      },
+                      "unMount": Set {},
+                      "watch": Set {},
+                      "watchAll": false,
+                    },
+                  },
+                  "readFormStateRef": Object {
+                    "current": Object {
+                      "dirtyFields": false,
+                      "errors": "all",
+                      "isDirty": false,
+                      "isValid": false,
+                      "isValidating": false,
+                      "touchedFields": false,
+                    },
+                  },
+                  "register": [Function],
+                  "setValues": [Function],
+                  "shouldUnmount": undefined,
+                  "subjectsRef": Object {
+                    "current": Object {
+                      "array": ke {
+                        "observers": Array [
+                          Ve {
+                            "closed": false,
+                            "observer": Object {
+                              "next": [Function],
+                            },
+                          },
+                        ],
+                      },
+                      "control": ke {
+                        "observers": Array [],
+                      },
+                      "state": ke {
+                        "observers": Array [
+                          Ve {
+                            "closed": false,
+                            "observer": Object {
+                              "next": [Function],
+                            },
+                          },
+                        ],
+                      },
+                      "watch": ke {
+                        "observers": Array [],
+                      },
+                    },
+                  },
+                  "unregister": [Function],
+                  "updateIsValid": [Function],
+                  "watchInternal": [Function],
+                }
+              }
+              id="password"
+              name="password"
+              placeholder="********"
+              register={[Function]}
+              type="password"
+            >
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                control={
+                  Object {
+                    "defaultValuesRef": Object {
+                      "current": Object {},
+                    },
+                    "fieldArrayDefaultValuesRef": Object {
+                      "current": Object {},
+                    },
+                    "fieldsRef": Object {
+                      "current": Object {
+                        "identifier": Object {
+                          "_f": Object {
+                            "mount": true,
+                            "name": "identifier",
+                            "ref": <input
+                              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                              control="[object Object]"
+                              id="username"
+                              name="identifier"
+                              placeholder="Username/Email"
+                              type="text"
+                            />,
+                            "value": "",
+                          },
+                        },
+                        "password": Object {
+                          "_f": Object {
+                            "mount": true,
+                            "name": "password",
+                            "ref": <input
+                              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                              control="[object Object]"
+                              id="password"
+                              name="password"
+                              placeholder="********"
+                              type="password"
+                            />,
+                            "value": "",
+                          },
+                        },
+                      },
+                    },
+                    "formStateRef": Object {
+                      "current": Object {
+                        "dirtyFields": Object {},
+                        "errors": Object {},
+                        "isDirty": false,
+                        "isSubmitSuccessful": false,
+                        "isSubmitted": false,
+                        "isSubmitting": false,
+                        "isValid": false,
+                        "isValidating": false,
+                        "submitCount": 0,
+                        "touchedFields": Object {},
+                      },
+                    },
+                    "getIsDirty": [Function],
+                    "inFieldArrayActionRef": Object {
+                      "current": false,
+                    },
+                    "namesRef": Object {
+                      "current": Object {
+                        "array": Set {},
+                        "mount": Set {
+                          "identifier",
+                          "password",
+                        },
+                        "unMount": Set {},
+                        "watch": Set {},
+                        "watchAll": false,
+                      },
+                    },
+                    "readFormStateRef": Object {
+                      "current": Object {
+                        "dirtyFields": false,
+                        "errors": "all",
+                        "isDirty": false,
+                        "isValid": false,
+                        "isValidating": false,
+                        "touchedFields": false,
+                      },
+                    },
+                    "register": [Function],
+                    "setValues": [Function],
+                    "shouldUnmount": undefined,
+                    "subjectsRef": Object {
+                      "current": Object {
+                        "array": ke {
+                          "observers": Array [
+                            Ve {
+                              "closed": false,
+                              "observer": Object {
+                                "next": [Function],
+                              },
+                            },
+                          ],
+                        },
+                        "control": ke {
+                          "observers": Array [],
+                        },
+                        "state": ke {
+                          "observers": Array [
+                            Ve {
+                              "closed": false,
+                              "observer": Object {
+                                "next": [Function],
+                              },
+                            },
+                          ],
+                        },
+                        "watch": ke {
+                          "observers": Array [],
+                        },
+                      },
+                    },
+                    "unregister": [Function],
+                    "updateIsValid": [Function],
+                    "watchInternal": [Function],
+                  }
+                }
+                id="password"
+                name="password"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="********"
+                type="password"
+              />
+            </Input>
+          </div>
+        </FormField>
+        <div
+          className="flex items-center justify-between"
+        >
+          <button
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            type="submit"
+          >
+            Sign In
+          </button>
+        </div>
+      </form>
+    </LoginForm>
+    <p
+      className="text-center text-gray-500 text-xs"
+    >
+      ©2020 Acme Corp. All rights reserved.
+    </p>
+  </div>
+</Login>
+`;

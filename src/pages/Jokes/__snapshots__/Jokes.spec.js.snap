@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jokes page test should render Jokes component 1`] = `
+<div
+  className="container mx-auto"
+>
+  <Joke />
+  <div
+    className="container mx-auto pt-32"
+  >
+    <Table
+      data={Array []}
+    />
+  </div>
+</div>
+`;

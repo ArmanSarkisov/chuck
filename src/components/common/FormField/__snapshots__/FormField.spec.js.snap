@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormField test should render Card component 1`] = `
+<div
+  className="mb-4"
+>
+  <Label
+    error="message"
+    htmlFor="id"
+    text="some text"
+  />
+  <Input
+    control={
+      Object {
+        "mock": true,
+      }
+    }
+    id="id"
+    placeholder="placeholder"
+    register={[MockFunction]}
+    type="text"
+  />
+</div>
+`;

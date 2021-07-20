@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Brand name test should render Joke component 1`] = `
+<div
+  className="flex items-center flex-no-shrink text-white mr-6"
+>
+  <span
+    className="font-semibold text-xl tracking-tight"
+  >
+    Chuck Jokes
+  </span>
+</div>
+`;

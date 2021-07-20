@@ -1,0 +1,698 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register test should render Joke component 1`] = `
+<RegisterForm
+  control={
+    Object {
+      "mock": true,
+    }
+  }
+  errors={
+    Object {
+      "username": Object {
+        "message": "err",
+      },
+    }
+  }
+  handleSendData={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          [MockFunction] {
+            "calls": [Circular],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          },
+        ],
+        Array [
+          "email",
+        ],
+        Array [
+          "username",
+        ],
+        Array [
+          "password",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  handleSubmit={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          [MockFunction] {
+            "calls": [Circular],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          },
+        ],
+        Array [
+          "email",
+        ],
+        Array [
+          "username",
+        ],
+        Array [
+          "password",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  register={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          [MockFunction] {
+            "calls": [Circular],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          },
+        ],
+        Array [
+          "email",
+        ],
+        Array [
+          "username",
+        ],
+        Array [
+          "password",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <form
+    className="bg-white w-2/4 shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-32"
+  >
+    <FormField
+      control={
+        Object {
+          "mock": true,
+        }
+      }
+      inputId="email"
+      name="email"
+      placeholder="Email"
+      register={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              [MockFunction] {
+                "calls": [Circular],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              },
+            ],
+            Array [
+              "email",
+            ],
+            Array [
+              "username",
+            ],
+            Array [
+              "password",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      text="Email"
+      type="email"
+    >
+      <div
+        className="mb-4"
+      >
+        <Label
+          htmlFor="email"
+          text="Email"
+        >
+          <label
+            className="block text-gray-700 text-sm font-bold mb-2"
+            htmlFor="email"
+          >
+            <span>
+              Email
+            </span>
+          </label>
+        </Label>
+        <Input
+          control={
+            Object {
+              "mock": true,
+            }
+          }
+          id="email"
+          name="email"
+          placeholder="Email"
+          register={
+            [MockFunction] {
+              "calls": Array [
+                Array [
+                  [MockFunction] {
+                    "calls": [Circular],
+                    "results": Array [
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                    ],
+                  },
+                ],
+                Array [
+                  "email",
+                ],
+                Array [
+                  "username",
+                ],
+                Array [
+                  "password",
+                ],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+              ],
+            }
+          }
+          type="email"
+        >
+          <input
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+            control={
+              Object {
+                "mock": true,
+              }
+            }
+            id="email"
+            placeholder="Email"
+            type="email"
+          />
+        </Input>
+      </div>
+    </FormField>
+    <FormField
+      control={
+        Object {
+          "mock": true,
+        }
+      }
+      inputId="username"
+      message="err"
+      name="username"
+      placeholder="Username"
+      register={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              [MockFunction] {
+                "calls": [Circular],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              },
+            ],
+            Array [
+              "email",
+            ],
+            Array [
+              "username",
+            ],
+            Array [
+              "password",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      text="Username"
+      type="text"
+    >
+      <div
+        className="mb-4"
+      >
+        <Label
+          error="err"
+          htmlFor="username"
+          text="Username"
+        >
+          <label
+            className="block text-gray-700 text-sm font-bold mb-2 text-red-700"
+            htmlFor="username"
+          >
+            <span>
+              err
+            </span>
+          </label>
+        </Label>
+        <Input
+          control={
+            Object {
+              "mock": true,
+            }
+          }
+          id="username"
+          name="username"
+          placeholder="Username"
+          register={
+            [MockFunction] {
+              "calls": Array [
+                Array [
+                  [MockFunction] {
+                    "calls": [Circular],
+                    "results": Array [
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                    ],
+                  },
+                ],
+                Array [
+                  "email",
+                ],
+                Array [
+                  "username",
+                ],
+                Array [
+                  "password",
+                ],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+              ],
+            }
+          }
+          type="text"
+        >
+          <input
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+            control={
+              Object {
+                "mock": true,
+              }
+            }
+            id="username"
+            placeholder="Username"
+            type="text"
+          />
+        </Input>
+      </div>
+    </FormField>
+    <FormField
+      control={
+        Object {
+          "mock": true,
+        }
+      }
+      inputId="password"
+      name="password"
+      placeholder="********"
+      register={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              [MockFunction] {
+                "calls": [Circular],
+                "results": Array [
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                  Object {
+                    "type": "return",
+                    "value": undefined,
+                  },
+                ],
+              },
+            ],
+            Array [
+              "email",
+            ],
+            Array [
+              "username",
+            ],
+            Array [
+              "password",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        }
+      }
+      text="Password"
+      type="password"
+    >
+      <div
+        className="mb-4"
+      >
+        <Label
+          htmlFor="password"
+          text="Password"
+        >
+          <label
+            className="block text-gray-700 text-sm font-bold mb-2"
+            htmlFor="password"
+          >
+            <span>
+              Password
+            </span>
+          </label>
+        </Label>
+        <Input
+          control={
+            Object {
+              "mock": true,
+            }
+          }
+          id="password"
+          name="password"
+          placeholder="********"
+          register={
+            [MockFunction] {
+              "calls": Array [
+                Array [
+                  [MockFunction] {
+                    "calls": [Circular],
+                    "results": Array [
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                      Object {
+                        "type": "return",
+                        "value": undefined,
+                      },
+                    ],
+                  },
+                ],
+                Array [
+                  "email",
+                ],
+                Array [
+                  "username",
+                ],
+                Array [
+                  "password",
+                ],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+              ],
+            }
+          }
+          type="password"
+        >
+          <input
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+            control={
+              Object {
+                "mock": true,
+              }
+            }
+            id="password"
+            placeholder="********"
+            type="password"
+          />
+        </Input>
+      </div>
+    </FormField>
+    <div
+      className="flex items-center justify-between"
+    >
+      <button
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        type="submit"
+      >
+        Sign In
+      </button>
+    </div>
+  </form>
+</RegisterForm>
+`;

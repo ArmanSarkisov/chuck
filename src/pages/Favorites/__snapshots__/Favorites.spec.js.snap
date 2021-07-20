@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favorites page test should render Favorite component 1`] = `
+<Favorites>
+  <div
+    className="pt-10"
+  >
+    <h2
+      className="text-center text-2xl"
+    >
+      You dont have favorite jokes
+    </h2>
+  </div>
+</Favorites>
+`;

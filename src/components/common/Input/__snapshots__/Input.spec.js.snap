@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input test Has props should render Card component 1`] = `
+<input
+  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+  control={
+    Object {
+      "mock": true,
+    }
+  }
+  id="id"
+  placeholder="placeholder"
+  type="text"
+/>
+`;

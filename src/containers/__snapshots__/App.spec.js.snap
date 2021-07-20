@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render Joke component 1`] = `
+<BrowserRouter>
+  <div
+    className="App"
+  >
+    <Header />
+    <ToastContainer
+      autoClose={5000}
+      closeButton={[Function]}
+      closeOnClick={true}
+      draggable={true}
+      draggableDirection="x"
+      draggablePercent={80}
+      hideProgressBar={false}
+      newestOnTop={false}
+      pauseOnFocusLoss={true}
+      pauseOnHover={true}
+      position="top-right"
+      role="alert"
+      rtl={false}
+      transition={[Function]}
+    />
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/jokes"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/auth/login"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/auth/sign-up"
+      />
+      <PrivateRoute
+        component={[Function]}
+        exact={true}
+        path="/favorites"
+      />
+      <Redirect
+        from="*"
+        to="/auth/login"
+      />
+    </Switch>
+  </div>
+</BrowserRouter>
+`;
