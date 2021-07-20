@@ -37,7 +37,11 @@ exports[`Label test should render Joke component 1`] = `
         </button>
       </Button>
     </div>
-    <Card>
+    <Card
+      addToFavorite={[Function]}
+      isFavorite={false}
+      joke={Object {}}
+    >
       <div
         className="max-w-sm rounded overflow-hidden shadow-lg"
       >

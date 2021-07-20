@@ -1,4 +1,4 @@
-import { createStore, createEffect } from 'effector';
+import { createStore, createEffect, createEvent } from 'effector';
 import { toast } from 'react-toastify';
 
 // api
@@ -6,6 +6,8 @@ import request from '../../api';
 
 const jokes = createStore([]);
 const joke = createStore({});
+
+const clearJokeEvent = createEvent();
 
 const getJokesEffect = createEffect({
   handler: async () => {
@@ -62,12 +64,17 @@ const removeJokeEffect = createEffect({
 
 jokes.on(getJokesEffect.done, (_, { result }) => result);
 joke.on(getJokeEffect.done, (_, { result }) => result);
+joke.on(clearJokeEvent, () => ({}));
 
 export const jokesEffect = {
   getJokesEffect,
   setJokeToFavoriteEffect,
   removeJokeEffect,
   getJokeEffect,
+};
+
+export const jokesEvents = {
+  clearJokeEvent,
 };
 
 export const jokesState = {

@@ -4,10 +4,18 @@ import { Card } from './index';
 
 describe('Card test', () => {
   let component;
+  const mockJoke = { joke: 'some joke', categories: ['category'] };
+  const mockCallback = jest.fn();
 
   describe('Has props', () => {
     beforeEach(() => {
-      component = shallow(<Card text="Some text" categories={['Category']} />);
+      component = shallow(
+        <Card
+          joke={mockJoke}
+          isFavorite={false}
+          addToFavorite={mockCallback}
+        />,
+      );
     });
 
     it('should render Card component', () => {
@@ -16,7 +24,7 @@ describe('Card test', () => {
 
     it('should render props text', () => {
       const p = component.find('.text-base');
-      expect(p.text()).toBe('Some text');
+      expect(p.text()).toBe('some joke');
     });
 
     it('should render props category', () => {
